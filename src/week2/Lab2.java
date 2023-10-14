@@ -73,9 +73,9 @@ public class Lab2 {
             System.out.println();
         }
 
+    }
+    }
 
-    }
-    }
 
 public class Lab2 {
     public static void main(String[] args) {
@@ -141,7 +141,7 @@ public class Lab2 { //8.zadatak b)
             }System.out.println();
         }
     }
-}*/
+}
 public class Lab2 {
     public static void main(String[] args) {
 
@@ -152,7 +152,7 @@ public class Lab2 {
         int number;
         for(int i=0; i<=red; i++)
         {
-            number=1;
+            number=1; //reset to 1 when outer loop iterates
             for(int j=0; j<i; j++)
             {
                 System.out.print(number+ " ");
@@ -161,3 +161,37 @@ public class Lab2 {
         }
     }
 }
+public class Lab2 {
+    public static void main(String[] args) {
+
+        drawStarsPiramid(10);
+    }
+    public static void drawStarsPiramid(int red)
+    {
+        for(int i=1; i<=red; i++)
+        {
+            for(int j=1; j<=i; j++)
+            {
+                System.out.print(i+ " "); //ako je u prvoj iteraciji/prvom redu ispisuje 1 itd.
+
+            }System.out.println();
+        }
+    }
+}*/
+public class Lab2 {
+    public static void main(String[] args) {
+        Scanner reader=new Scanner((System.in));
+        System.out.println("enter a number ");
+        int n=Integer.parseInt((reader.nextLine()));
+        int i=0;
+        int sum=0;
+        while(i<=n)
+        {
+            int result=(int)Math.pow(2, i);
+            i++;
+            sum+=result;
+        }
+        System.out.println("sum is "+sum);
+
+        }
+    }
