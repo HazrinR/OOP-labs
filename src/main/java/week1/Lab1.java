@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Lab1 {
     public static void main(String[] args)
     {
-        System.out.println("Hazrin Redzepi");
+        System.out.println("Hazrin");
     }
 }/*
 public class Lab1{
