@@ -45,6 +45,4 @@ public class Student extends Person{
         return super.toString() +"\n\tcredits" +this.credits;
     }
 
-
-
 }
