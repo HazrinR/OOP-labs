@@ -56,6 +56,7 @@ public class Lab3 {
                     .collect(Collectors.toList());
         }
         public void printTaskDescription(){
+
             tasks.forEach(task -> System.out.println(task.getTaskDescription()));
         }
     }
