@@ -6,6 +6,7 @@ interface Logger{
 record RecordLogger(String name)implements Logger{
     @Override
     public void logMessage(String message){
+
         System.out.println("RecordLogger [" + name + "]: " + message);
     }
 }
